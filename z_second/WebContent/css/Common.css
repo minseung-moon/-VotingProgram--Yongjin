@@ -1,0 +1,44 @@
+@CHARSET "UTF-8";
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul, ol, li {
+	list-style: none;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+#main {
+	min-height: 80vh;
+	padding-bottom: 15px;
+}
+
+.container {
+	margin: 0 50px;
+}
+
+#main h2 {
+	margin: 15px 0;
+	text-align: center;
+}
+
+#main table {
+	border-collapse: collapse;
+	margin: 0 auto;
+}
+
+#main table, tr, th, td {
+	border: 1px solid #000;
+	text-align: center;
+}
+
+#main table td, th {
+	padding: 5px 15px;
+}
